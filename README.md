@@ -1,4 +1,4 @@
-# 🇮🇳 The Great India Website
+# The Great India Website
 
 A creative website built using **HTML and CSS** to showcase the greatness of India, including famous personalities, scientists, and freedom fighters who contributed to the nation.
 
