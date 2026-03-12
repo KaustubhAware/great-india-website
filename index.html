@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>The Great India</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+line-height:1.6;
+}
+
+/* NAVBAR */
+
+nav{
+background:#111;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+font-size:18px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:#ff9933;
+}
+
+/* HERO */
+
+.hero{
+height:70vh;
+background:linear-gradient(90deg,#ff9933,#ffffff,#138808);
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+font-size:22px;
+margin-top:10px;
+}
+
+/* CONTAINER */
+
+.container{
+width:90%;
+margin:auto;
+padding:40px 0;
+}
+
+/* SECTIONS */
+
+.section{
+background:white;
+padding:30px;
+margin-bottom:40px;
+border-radius:8px;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+margin-top:20px;
+}
+
+/* CARDS */
+
+.card{
+background:#fff;
+text-align:center;
+padding:15px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+/* LIST */
+
+ul{
+margin-left:20px;
+margin-top:10px;
+}
+
+ol{
+margin-left:20px;
+margin-top:10px;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th{
+background:#138808;
+color:white;
+padding:12px;
+}
+
+td{
+padding:10px;
+border:1px solid #ddd;
+}
+
+/* BUTTON */
+
+.btn{
+display:inline-block;
+margin-top:10px;
+background:#ff9933;
+color:white;
+padding:10px 15px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.btn:hover{
+background:#e67e22;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#leaders">Leaders</a>
+<a href="#scientists">Scientists</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>The Great India</h1>
+
+<p>Celebrating India's greatest personalities and achievements</p>
+
+</section>
+
+
+<div class="container">
+
+
+<!-- ABOUT INDIA -->
+
+<div class="section" id="about">
+
+<h2>About India</h2>
+
+<p>
+
+India is a vibrant society with an increasingly vigorous internal dynamic and an increasing influence, directly and indirectly, in the world. Its significance lies not only in its size—some 930 million Indians are 15 percent of the planetary population—but also in the questions raised by the path India has chosen in domestic and foreign policy. This nation is the largest functioning democracy, with regular and freely contested elections. Thus, it is the test of whether democracy is a suitable system of govemment for large numbers of relatively poor people_in a world where democracy, as we understand it, is a much-endangered political species, especially in Third World countries.
+
+Modern India is also a test of two middle-ground philosophies. As an early proponent of non-alignment in international politics, India has attempted to establish a [middle] position between Western and [communist] oriented states. Over the years, its leadership in carving out a Third World posture demonstrated that there is a viable route for nations who did not want to take sides in Cold War politics, an approach which many other nations in Asia, Africa, Latin America, and the Middle East have followed and hope to sustain.
+
+
+
+
+Example entities:
+5 &lt; 10 and unity &amp; diversity define India.
+
+Water formula H<sub>2</sub>O  
+Math example 10<sup>2</sup> = 100
+
+</p>
+
+</div>
+
+
+<!-- FIELDS -->
+
+<div class="section">
+
+<h2>Fields Where India Excelled</h2>
+
+<h3>Unordered List</h3>
+
+<ul>
+
+<li>Freedom Movement</li>
+<li>Science & Technology</li>
+<li>Arts and Culture</li>
+<li>Sports</li>
+
+</ul>
+
+
+<h3>Ordered List</h3>
+
+<ol>
+
+<li>Education</li>
+<li>Dedication</li>
+<li>Leadership</li>
+<li>Service to Nation</li>
+
+</ol>
+
+</div>
+
+
+<!-- FREEDOM FIGHTERS -->
+
+<div class="section" id="leaders">
+
+<h2>Great Freedom Fighters</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="img/mahatma.jpg">
+<h3>Mahatma Gandhi</h3>
+<p>Leader of India's independence movement</p>
+</div>
+
+<div class="card">
+<img src="img/Bhagat.jpg">
+<h3>Bhagat Singh</h3>
+<p>Revolutionary freedom fighter</p>
+</div>
+
+<div class="card">
+<img src="img/subhash_chandra_bose.jpg">
+<h3>Subhash Chandra Bose</h3>
+<p>Founder of Azad Hind Fauj</p>
+</div>
+
+<div class="card">
+<img src="img/lal_bahadur.jpg">
+<h3> Lal Bahadur Shastri</h3>
+<p>Second Prime Minister of India</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- SCIENTISTS -->
+
+<div class="section" id="scientists">
+
+<h2>Indian Scientists</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="img/abdul_kalam.jpg">
+<h3>APJ Abdul Kalam</h3>
+<p>Missile Man of India</p>
+</div>
+
+<div class="card">
+<img src="raman.jpg">
+<h3>C V Raman</h3>
+<p>Nobel Prize Winner</p>
+</div>
+
+<div class="card">
+<img src="vikram.jpg">
+<h3>Vikram Sarabhai</h3>
+<p>Father of Indian Space Program</p>
+</div>
+
+<div class="card">
+<img src="bhabha.jpg">
+<h3>Homi Bhabha</h3>
+<p>Father of Indian Nuclear Program</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- TABLE -->
+
+<div class="section">
+
+<h2>Important Personalities</h2>
+
+<table>
+
+<tr>
+<th>Name</th>
+<th>Field</th>
+<th>Year</th>
+</tr>
+
+<tr>
+<td>Mahatma Gandhi</td>
+<td>Freedom Fighter</td>
+<td>1869</td>
+</tr>
+
+<tr>
+<td>APJ Abdul Kalam</td>
+<td>Scientist</td>
+<td>1931</td>
+</tr>
+
+<tr>
+<td>C V Raman</td>
+<td>Scientist</td>
+<td>1888</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<!-- LINKS -->
+
+<div class="section">
+
+<h2>Learn More About India</h2>
+
+<a class="btn" href="https://www.india.gov.in" target="_blank">
+Official India Government Website
+</a>
+
+</div>
+
+
+<!-- IFRAME -->
+
+<div class="section">
+
+<h2>Explore India</h2>
+
+<iframe src="https://www.wikipedia.org" width="100%" height="350"></iframe>
+
+</div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+<p>© 2026 The Great India Website</p>
+
+<p>Designed using HTML and CSS</p>
+
+</footer>
+
+</body>
+</html>
